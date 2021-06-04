@@ -1,0 +1,639 @@
+body {
+    margin: 0px auto;
+
+}
+
+#iframe {
+    width: 100%;
+    height: 543px;
+}
+
+.content {
+
+    height: 100vh;
+}
+
+#live-link {
+    color: rgb(212, 16, 16);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.live-div {
+    width: 10%;
+}
+
+.live-link-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 1em;
+    height: 50px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.menu-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+.menu-buttom {
+    background: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+
+.menu-buttom a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    width: 19%;
+    text-align: center;
+}
+
+.menu-buttom a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    padding-bottom: 12px;
+    background:
+        /* gradient can be an image */
+        linear-gradient(to left,
+            #399953 0%,
+            #399953 12%,
+            #fbb300 24%,
+            #fbb300 36%,
+            #d53e33 48%,
+            #d53e33 72%,
+            #3767c0 84%,
+            #377af5 100%) left bottom no-repeat;
+    background-size: 100% 3px;
+    /* if linear-gradient, we need to resize it */
+}
+
+.destacadas {
+    margin: 0px auto;
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacadas h2 {
+    width: 100%;
+}
+
+.carousel {
+    padding-top: 30px;
+    width: 86%;
+    margin: 0px auto;
+    margin-bottom:20px;
+}
+
+.carousel img {
+    height: 500px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background: rgba(0, 0, 0, 0.835);
+}
+
+.wrapper {
+    height: 400px;
+    margin: 0px auto;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    background-color: rgb(36, 36, 36);
+}
+
+.separador {
+    min-width: 30px;
+    height: 320px;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+
+
+.wrapper .item {
+    min-width: 320px;
+    height: 320px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.wrapper .item img {
+    height: 160px;
+    width: 100%;
+}
+
+.wrapper .item h4 {
+    font-size: 18px;
+    font-family: Monserrat, sans-serif;
+}
+
+.principal {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 86%;
+    height: 60vh;
+}
+
+.imagen-principal {
+    width: 58%;
+}
+
+.imagen-principal img {
+    width: 90%;
+    height: 350px;
+}
+
+.info-principal {
+    width: 40%;
+    text-align: center;
+}
+
+.anuncio1 {
+    width: 86%;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.911);
+    color: white;
+    font-size: 25px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom:20px;
+
+}
+
+.estructura {
+    width: 86%;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.principal-estructura {
+    width: 49%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 0.2em;
+    box-shadow: 1px 1px 1px 1px rgb(197, 197, 197);
+    padding: 7px;
+}
+
+.principal-estructura img {
+    width: 99%;
+    height: 350px;
+}
+
+.mas-estructura {
+    width: 49%;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mas-estructura img {
+    width: 106px;
+    height: 106px;
+}
+
+.cada-mas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 0.2em;
+    box-shadow: 1px 1px 1px 1px rgb(197, 197, 197);
+    padding: 7px;
+}
+
+.cada-mas img{
+   margin-left:5px;
+   margin-right:7px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 100px;
+    text-align: center;
+    height: 400px;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    font-family: Monserrat, sans-serif;
+
+}
+
+footer span {
+    font-size: 20px;
+
+}
+
+.redes-sociales {
+    width: 5%;
+    height: 200px;
+    position: fixed;
+    margin-left: 94%;
+    margin-top: 350px;
+}
+
+.redes-sociales img {
+    width: 100%;
+}
+
+.redes-socialesF {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.redes-socialesF img {
+    width: 40%;
+}
+
+.multi-media {
+
+    width: 86%;
+    margin: 0px auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.estructura2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 86%;
+    margin: 0px auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.menu-desplegado {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    animation-name: mianimation;
+    animation-duration: 0.1s;
+    position: relative;
+}
+
+@keyframes mianimation {
+    0% {
+        background: rgb(0, 0, 0);
+        top: -400px;
+    }
+
+    25% {
+        background: rgb(0, 0, 0);
+        top: -300px;
+    }
+
+    50% {
+        background: rgb(0, 0, 0);
+        top: -200px;
+    }
+
+    75% {
+        background: rgb(0, 0, 0);
+        top: -100px;
+    }
+
+    100% {
+        background: rgb(0, 0, 0);
+        top: 0px;
+    }
+}
+
+.opcion {
+    display: table;
+    height: 120px;
+    width: 30%;
+    margin: 1.6%;
+    border-radius: 1em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.opcion:hover {
+    color: #000000;
+}
+
+.opcion h5 {
+    font-size: 30px;
+    background-color: #0000001e;
+    border-radius: 0.5em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#actualidad {
+    background: url('https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/actualidad.jpg?alt=media&token=024cbe47-0a71-4279-88ff-ff893501055c');
+}
+
+#programa {
+    background: url('https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/prog.jpeg?alt=media&token=6a987cfd-2269-43eb-b83a-bb174f0882a7');
+    background-size: 100%;
+}
+
+#clima {
+    background: url('https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/clima.jpg?alt=media&token=6c25916c-3c14-4ac5-ab3f-22bd2f21832e');
+    background-size: 100%;
+}
+
+#deportes {
+    background: url('https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/deportes.jpg?alt=media&token=7fdd99b9-dc87-449f-8e52-4b040a4fb00f');
+    background-size: 100%;
+}
+
+#noticias {
+    background: url('https://firebasestorage.googleapis.com/v0/b/jugyff-66308.appspot.com/o/noti.jpg?alt=media&token=64f29188-888b-4104-9536-5dead78af516');
+    background-size: 100%;
+}
+
+@media screen and (max-width:1187px) {
+    .live-link-inside h4 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1136px) {
+    .live-div {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:893px) {
+
+    .principal-estructura {
+    width: 100%;
+    }  
+
+    .mas-estructura{
+     width: 100%;
+     margin-top:20px;
+    }
+
+
+    #iframe {
+    width: 100%;
+    height: 443px;
+    }
+    .destacadas {
+        margin: 0px auto;
+    width: 98%;
+    }
+
+    .carousel {
+        padding-top: 20px;
+        width: 98%;
+        margin: 0px auto;
+        margin-bottom:20px;
+
+    }
+
+    .separador {
+        min-width: 20px;
+        height: 320px;
+
+    }
+
+
+    .wrapper .item {
+        min-width: 250px;
+        height: 320px;
+
+    }
+
+    .principal {
+        margin: 0px auto;
+    width: 98%;
+        height: 60vh;
+    }
+
+
+    .anuncio1 {
+    width: 98%;
+        margin: 0px auto;
+    margin-bottom:20px;
+    margin-top:20px;
+
+
+    }
+
+    .estructura {
+    width: 98%;
+    margin: 0px auto;
+    margin-top: 30px;
+
+    }
+
+    .estructura2 {
+    width: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+
+    }
+
+    .redes-sociales {
+        display: none;
+
+
+    }
+
+    .multi-media {
+
+    width: 98%;
+        margin: 0px auto;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width:887px) {
+
+
+    .carousel-caption h5{
+     font-size:16px;
+     }
+
+     .carousel-caption p{
+          font-size:12px;
+
+     }
+
+    .menu-buttom {
+        display: none;
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    .principal{
+        height: 700px;
+    }
+
+    .principal .imagen-principal {
+        width: 100%;
+    }
+
+    .principal .imagen-principal img {
+        width: 100%;
+    }
+
+    .principal .info-principal {
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:642px) {
+
+     .carousel-caption h5{
+     font-size:15px;
+     }
+
+     .carousel-caption p{
+          font-size:11px;
+
+     }
+
+     #iframe {
+    width: 100%;
+    height: 343px;
+    }
+
+    .anuncio1 {
+    width: 98%;
+    margin: 0px auto;
+    height: 100px;
+    margin-bottom:20px;
+}
+
+
+    .live-div {
+        width: 30%;
+    }
+
+    .carousel {
+    width: 98%;
+    margin: 0px auto;
+    margin-bottom:20px;
+     }
+
+    .carousel img {
+    height: 330px;
+    }
+
+}
+
+@media screen and (max-width:489px) {
+
+    .opcion {
+    display: table;
+    height: 14.788vh;
+    width: 100%;
+    
+}
+
+ #iframe {
+    width: 100%;
+    height: 243px;
+    }
+
+    .carousel img {
+    height: 250px;
+    }
+
+    footer {
+        height: 75vh;
+        font-size: 10px;
+    }
+
+    footer h4 {
+        font-size: 15px;
+    }
+
+    footer span {
+        font-size: 8px;
+    }
+
+    .redes-socialesF img {
+        width: 70%;
+    }
+
+    
+}
+
+@media screen and (max-width:375px) {
+    
+    .live-div {
+        width: 36%;
+    }
+
+    footer {
+        height: 90vh;
+    }
+
+    .multi-media {
+
+    width: 98%;
+        margin: 0px auto;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    footer {
+        height: 128vh;
+    }
+
+}
+
+.oculta{
+    display:none;
+}
+
+.visible{
+    display:contents;
+}
